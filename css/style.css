@@ -150,6 +150,10 @@ img{
     height: 600px
 }
 
+.container .mid:hover{
+    height: 480px
+}
+
 .container .card .imgBx{
     position: relative;
     width: 300px;
