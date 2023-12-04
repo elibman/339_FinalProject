@@ -10,3 +10,107 @@
     
     <title>Individual Project</title>
 </head>
+<body>
+    <div>
+    <a class="skip" href="">Skip to Main Content</a>
+    </div>
+    <header>
+    <nav class="heading">
+        <h1>
+            <a href="index.html">My Travels</a>
+        </h1>
+        <ul class="links">
+            <li><a class='current' href="index.html">Home</a></li>
+            <li><a href="france.html">France</a></li>
+            <li><a href="london.html">London</a></li>
+            <li><a href="switz.html">Swizterland</a></li>
+            
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <div class="intro">
+        <h1 class="main-intro">Where I've Been Summer '23!</h1>
+    
+    <div class="intro-content">
+        <p>Welcome to my overview of all the traveling I did for the month of July during the 2023 summer. The first nine days I was in the South of France with my family, and the rest was spent traveling around Europe living out of a backpack -- some with my sister, and some with a close friend.</p>
+        <p>I'm eager to be sharing all the travel and excitement that I got to experience with you, and thank you for following me on this journey!</p>
+    </div>
+    </div>
+    <div class="body-content move">
+    <div class="container">
+        <div class="card long">
+            <div class="imgBx">
+                <img src="images/eiffel-tower.jpeg" alt="a picture of the eiffel tower glistening in the night" onclick="franceFunc()">
+            </div>
+            <div class="content">
+                <h2>France</h2>
+                <p>To begin and end my summer, I traveled through France. For the first week of July, I stayed at a villa in the south of France with my family, in a town called Aix en Provence. Nearing the end of the month, I traveled up the country staying in hostels in Paris and Rouen.</p>
+            </div>
+        </div>
+        <div class="card long">
+            <div class="imgBx">
+                <img src="images/london_bridge.jpeg" alt="primrose hill in london" onclick="londonFunc()">
+            </div>
+            <div class="content">
+                <h2>London, England</h2>
+                <p>After France, my sister and I traveled to London, where we ate amazing food, saw a Broadway show, and visited incredible tourist sites. We even spent a day at the Wibmledon Grand Slam semi-finals.</p>
+            </div>
+        </div>
+        
+        <div class="card long">
+            <div class="imgBx">
+                <img src="images/switz_HK-peak.JPG" alt="view from peak of harder kulm mountain" onclick="switzFunc()">
+            </div>
+            <div class="content">
+                <h2>Interlaken, Switzerland</h2>
+                <p>At the end of my summer, I went hiking through Switzerland with my childhood best friend. We went to a street fair full of amazing food and lively music, hiked beautiful mountains, and swam in crystal clear waters.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    </div>
+    <footer>
+        <p>Author: Emily Libman <br> <a href="mailto:elibman@umich.edu">Contact Me</a></p>
+        
+    </footer>
+
+
+    <!-- <div class="slide hi-slide">
+        <div class="hi-prev"></div>
+        <div class="hi-next"></div>
+        <ul>
+            <li><img src="images/aix_bridge.jpeg" alt="bridge in aix en provence" onclick="franceFunc()"></li>
+            <li><img src="images/london_buckingham-inner.jpeg" alt="buckingham palace" onclick="londonFunc()"></li>
+            <li><img src="images/wimbledon.jpeg" alt="court 1 sideview at Wimbledon"></li>
+            <li><img src="images/switz_HK-peak.JPG" alt="Peak of the Switzerland mountain Harder Kulm"></li>
+            <li><img src="images/aix_square.jpeg" alt="square" onclick="franceFunc()"></li>
+            <li><img src="images/switz_harder-kulm.jpeg" alt="mountain"></li>
+            <li><img src="images/aix_fountain.jpeg" alt="fountain" onclick="franceFunc()"></li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script src="js/jquery.hislide.js"></script>
+
+    <script>
+        $('.slide').hiSlide();
+    </script> -->
+
+    <script>
+        function franceFunc() {
+            location.replace('france.html')
+        }
+
+        function londonFunc() {
+            location.replace('london.html')
+        }
+
+        function switzFunc() {
+            location.replace('switz.html')
+        }
+    </script>
+    </main>
+</body>
