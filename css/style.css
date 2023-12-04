@@ -199,6 +199,10 @@ footer p{
     padding-top: 15px;
 }
 
+.links a:hover{
+    color: grey;
+}
+
 
 /* .hi-slide{
     position: relative;
@@ -327,4 +331,4 @@ footer p{
     border: none;
     padding: 10px;
     margin: 0 10px;
-} */
+}
